@@ -1,0 +1,11 @@
+<web-app>
+    <servlet>
+        <servlet-name>loanServlet</servlet-name>
+        <servlet-class>loanServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>loanServlet</servlet-name>
+        <url-pattern>/loanServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
