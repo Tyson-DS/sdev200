@@ -141,7 +141,7 @@ public class Shift{
 
 
     public double getHourly(Long shiftID, double elapsed){
-        double hours = 0.9920 + elapsed / (1000.0 * 60 * 60); 
+        double hours = elapsed / (1000.0 * 60 * 60); 
         double totaltips = getTotoalTips(shiftID);
         if (hours < 1) hours = 1;
         double hourly = totaltips / hours;
@@ -322,5 +322,6 @@ public long findBestShift() {
     }
     
 }
+
 
 
